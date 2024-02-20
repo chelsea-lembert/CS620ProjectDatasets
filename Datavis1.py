@@ -29,7 +29,7 @@ for i in range(len(categories)):
     mp.bar(filtered_years, filtered_values, label=categories[i])    
 
 
-mp.xlabel('Yaer')
+mp.xlabel('Year')
 mp.ylabel('CPI Values')
 mp.title('CPI Values Over The Years')
 mp.legend()
